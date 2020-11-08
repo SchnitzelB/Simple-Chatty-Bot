@@ -46,10 +46,10 @@ public class SimpleBot {
     static void test() {
         System.out.println("Let's test your programming knowledge.");
         int answer = scanner.nextInt();
-        System.out.println("Which one of the following statements is not valid" + "/n" +
-                "1. String i = \"abcd123\"" + "/n" +
-                "2. char i = 'a'" + "/n" +
-                "3. int i = 1234" + "/n" +
+        System.out.println("Which one of the following statements is not valid" + "\n" +
+                "1. String i = \"abcd123\"" + "\n" +
+                "2. char i = 'a'" + "\n" +
+                "3. int i = 1234" + "\n" +
                 "4. char i = 'abcd'");
         switch (answer) {
             case 1:
