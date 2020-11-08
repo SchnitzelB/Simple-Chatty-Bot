@@ -54,16 +54,21 @@ public class SimpleBot {
         switch (answer) {
             case 1:
                 System.out.println("Please, try again.");
+                break;
             case 2:
                 System.out.println("Please, try again.");
+                break;
             case 3:
                 System.out.println("Please, try again.");
+                break;
             case 4:
                 end();
+                break;
         }
     }
 
     static void end() {
+
         System.out.println("Congratulations, have a nice day!"); // Do not change this text
     }
 }
